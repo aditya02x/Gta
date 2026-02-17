@@ -1,11 +1,16 @@
-import React from 'react'
+import React from "react";
+import gsap from "gsap";
+import { ScrollTrigger, SplitText } from "gsap/all";
+import Navbar from "./components/Navbar";
 
-function App() {
+gsap.registerPlugin(ScrollTrigger, SplitText);
+
+const App = () => {
   return (
-    <div>
-      app
-    </div>
-  )
-}
+   <>
+   <Navbar/>
+   </>
+  );
+};
 
-export default App
+export default App;
