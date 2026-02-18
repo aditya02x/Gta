@@ -41,7 +41,7 @@ const Navbar = () => {
           </a>
 
           {/* Links */}
-          <ul className="flex flex-col md:flex-row items-center gap-4 md:gap-8 text-sm uppercase tracking-wider">
+          <ul className="flex flex-row md:flex-row items-center gap-4 md:gap-8 text-sm uppercase tracking-wider">
             <li><a href="#about">About</a></li>
             <li><a href="#cocktails">Cocktails</a></li>
             <li><a href="#art">The Art</a></li>
